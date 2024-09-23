@@ -13,7 +13,7 @@
     width: 85px;
     height: 85px;
 }
-.ttt{
+.ul_li_name{
    display: flex;
 }
 a{
@@ -68,7 +68,7 @@ position: relative;
     display: block;
 
 }
-.One{
+.ul_contact{
     position: relative;
 }
 .Contacts{
@@ -78,11 +78,11 @@ position: relative;
     top: 50px;
     width: 150px;
 }
-.One:hover .Contacts{
+.ul_contact:hover .Contacts{
     display: block;
 }
 
-.rose{
+.button_1_2{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -92,7 +92,7 @@ position: relative;
 
 
 }
-.right{
+.first_portfolio_name{
     border-style: dashed;
     font-size: 80px;
     color: aliceblue;
@@ -110,7 +110,7 @@ position: relative;
     height:50px;
     align-items: center;
 }
-.sobuz{
+.icone_text_container{
     width: 240px;
     height: 180px;
     background:white;
@@ -129,7 +129,7 @@ position: relative;
 
 
 }
-.than{
+.see_portfolio_button{
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -137,29 +137,29 @@ position: relative;
 }
 
 
-.sobuz i{
+.icone_text_container i{
     font-size: 30px;
 }
 
 
-.bithe{
+.section_number_two{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.sobuz:hover{
+.icone_text_container:hover{
     background:skyblue;
 }
-.sobuz:hover h1{
+.icone_text_container:hover h1{
     color: white;
 }
 
 
-.sobuz:hover i{
+.icone_text_container:hover i{
     color: white;
 }
 
-.than{
+.see_portfolio_button{
     display: flex;
     color:white;
     font-size: 50px;
@@ -169,7 +169,7 @@ position: relative;
     background-color:rgb(158, 135, 235);
     border-color: aliceblue;
 }
-.now{
+.see_more_portfolio_h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,7 +184,7 @@ position: relative;
     border-style: dashed;
 }
 
-   .sobuz{
+   .icone_text_container{
     text-shadow: 2px slateblue;
    } 
 
@@ -365,15 +365,64 @@ height: 600px;
     display: none;
 }
 
+                /* recent work */
+.My_work_area{
+ padding: 20px 0; 
+}    
+ .My_work_area{
+text-align: center;
+ }      
+ .My_work_area h3{
+    color: brown;
+    
+    
+ } 
+
+ .My_work_area h1{
+    color: black;
+    font-size:30px;
+    font-weight: bold;
+ } 
+ .project_img{
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+ }
+ .project_img img{
+    width: 100%;
+    
+   
+ }
+ .project_img img:hover{
+    animation-name: uptodown; 
+    animation-duration: 5s;
+    animation-timing-function: linear;
+ }
+
+ @keyframes uptodown {
+    from
+     {
+        transform: translateY(0px);
+     }
+    to 
+    {transform: translateY(-100%);}
+  }
+
+ .fortfolio_name{
+display: flex;
+gap: 10px;
+justify-content: center;
+ }
+                /* =========end recent work====== */
 
 @media only screen and (max-width: 600px){
     body{
        width: 600px; 
     }
-    .ttt{
+    .ul_li_name{
         display:none;
     }
-    .right{
+    .first_portfolio_name{
         border-style: dashed;
         font-size: 30px;
         color: aliceblue;
@@ -382,7 +431,7 @@ height: 600px;
         font-weight: 700;
         text-align: center;
     }
-    .than {
+    .see_portfolio_button{
         display: flex;
         color: white;
         font-size: 20px;
@@ -392,7 +441,7 @@ height: 600px;
         background-color: rgb(158, 135, 235);
         border-color: aliceblue;
     }
-    .now {
+    .see_more_portfolio_h1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -406,7 +455,7 @@ height: 600px;
         border-color: white;
         border-style: dashed;
     }
-    .bithe {
+    .section_number_two {
         display: flex;
         justify-content: center;
         gap: 40px;
