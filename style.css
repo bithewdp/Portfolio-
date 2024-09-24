@@ -405,7 +405,7 @@ text-align: center;
         transform: translateY(0px);
      }
     to 
-    {transform: translateY(-100%);}
+    {transform: translateY(-70%);}
   }
 
  .fortfolio_name{
@@ -414,6 +414,35 @@ gap: 10px;
 justify-content: center;
  }
                 /* =========end recent work====== */
+
+
+                /* footer */
+.footer{
+    display: flex;
+    background-color: rgba(0, 191, 255, 0.9);
+    gap: 15px;
+    height:400px ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.last_part_of_this_webside{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.fa-heart{
+    color: chartreuse;
+}
 
 @media only screen and (max-width: 600px){
     body{
@@ -474,7 +503,7 @@ justify-content: center;
     }
 
     
-}
+
 
 
 
