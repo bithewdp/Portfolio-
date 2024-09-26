@@ -444,7 +444,7 @@ justify-content: center;
     color: chartreuse;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     body{
        width: 600px; 
     }
@@ -501,14 +501,14 @@ justify-content: center;
         text-align: center;
         padding-top:60px;
     }
+    .fortfolio_name {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .project_img img {
+        width: 80%;
+    }
 
-    
-
-
-
-
-
-
-
-
-
+}
