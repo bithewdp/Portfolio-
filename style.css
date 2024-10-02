@@ -443,6 +443,41 @@ justify-content: center;
 .fa-heart{
     color: chartreuse;
 }
+.First_area h3{
+    font-size: 30px;
+    color: rgba(218, 32, 125, 0.99);
+    text-transform: uppercase;
+
+
+}
+.First_area p{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+
+}
+.second_part h3{
+    font-size: 30px;
+    color: rgba(218, 32, 125, 0.99);
+    text-transform: uppercase;
+
+}
+.second_part p{
+font-size: 20px;
+color: white;
+text-transform: capitalize;
+}
+.thirt_part_of_footeer h3{
+    font-size: 30px;
+    color: rgba(218, 32, 125, 0.99);
+    text-transform: uppercase;
+
+}
+.thirt_part_of_footeer p{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
 
 @media only screen and (max-width: 600px) {
     body{
